@@ -1,6 +1,8 @@
 from flask import Flask, render_template
+from forms import SignUpForm
 
 app = Flask(__name__)
+app.config['SECRET_KEY'] = 'weramvnjejhra;gmakshjr4395f'
 
 @app.route('/')
 def home():
@@ -19,6 +21,11 @@ def blog():
 @app.route('/blog/<string:blog_id>')
 def blogpost(blog_id):
 	return 'This is the blog post number ' + blog_id
+
+@app.route('/signup')
+def signup():
+	form = SignUpForm()
+	return render_template('signup.html', form=form)
 
 if __name__ == '__main__':
 	app.run()
