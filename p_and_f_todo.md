@@ -16,4 +16,12 @@ Goal: understand how jinja fits into Flask and CSS
 				- https://forum.omz-software.com/topic/6581/installing-additional-python-packages
 				- https://forum.omz-software.com/topic/6473/module-not-found-after-installing-with-pip-in-stash
 			- Flask WTF tutorial: https://hackersandslackers.com/flask-wtforms-forms
+	- DONE: Day 7: Got StaSh working (easier than expected) and was able to "pip instal Fask-WTF" - and then troubleshot script!!
+		- StaSh Refs:
+			- Good blog entry: https://mysql.wisborg.dk/category/pythonista/
+			- StaSh GitHub (good directions): https://github.com/ywangd/stash
+		- pip Refs:
+			- W3 Schools overvire: https://www.w3schools.com/python/python_pip.asp
+			- Source directions: https://pypi.org/project/Flask-WTF/
+	- next up - Codex P&F pt 7 !!!
 			
