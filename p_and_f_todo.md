@@ -23,5 +23,6 @@ Goal: understand how jinja fits into Flask and CSS
 		- pip Refs:
 			- W3 Schools overvire: https://www.w3schools.com/python/python_pip.asp
 			- Source directions: https://pypi.org/project/Flask-WTF/
-	- next up - Codex P&F pt 7 !!!
-			
+	- DONE: Codex P&F pt 7 - using forms data
+	
+
